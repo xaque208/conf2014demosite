@@ -1,0 +1,6 @@
+---
+bacula::params::bacula_director: 'baculadir.vagrant'
+bacula::params::bacula_storage: 'baculadir.vagrant'
+bacula::client::listen_address: '%{::ipaddress_eth1}'
+bacula::storage::listen_address: '%{::ipaddress_eth1}'
+bacula::director::listen_address: '%{::ipaddress_eth1}'
